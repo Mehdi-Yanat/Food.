@@ -1,0 +1,204 @@
+@import "config";
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    gap: 50px;
+    
+    
+}
+.background{
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 100px;
+        position: relative;
+        flex-direction: column;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        p{
+            color: white;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            width: 200px;
+            height: 50px;
+            border-radius:20px ;
+        }
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    .image1 img{
+        width: 100%;
+    }
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    .grid{
+        display: grid;
+        gap: 30px;
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 300px;
+            height: 400px;
+            background-color: rgb(238, 227, 227);
+            box-shadow: 0 3px 10px rgba(0 ,0, 0 , 0.5);
+            img{
+            width: 250px;
+            }
+        }
+        .box:hover{
+            transform: translateY(5px);
+            transition: 0.5s ease-in;
+            img:hover{
+            transform: translateY(-10px);
+            transition: 0.5s ease-in;
+            }
+        }
+    }
+}
+
+.kitchen-Expert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width:100%;
+        .flex1{
+            width: 300px;
+            height: 350px;
+            background-color: rgb(238, 227, 227);
+            box-shadow: 0 3px 10px rgba(0 ,0, 0 , 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            img{
+                width: 250px;
+                height: 300px;
+            }
+        }
+        .flex1:hover{
+            transform: translateY(5px);
+            transition: 0.5s ease-in;
+            img:hover{
+            transform: translateY(-10px);
+            transition: 0.5s ease-in;
+            }
+        }
+        
+    }
+}
+
+.Testi{
+    background-image: url(/images/bg2.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-size:cover ;
+    gap: 20px;
+    h2{
+        color: white;
+    }
+    .text-m p {
+        color: white;
+    }
+    .flex-stuff{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 300px;
+            background-color: rgb(238, 227, 227);
+            box-shadow: 0 3px 10px rgba(0 ,0, 0 , 0.5);
+            img{
+                width: 100px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.Contact{
+    background-image: url(/images/bg3.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    .forum{
+       
+        background-color: rgb(238, 227, 227) ;
+        width: 100%;
+        height: 500px;
+        .inside-forum{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+            height:500px;
+            gap: 20px;
+            input{
+                height: 50px;
+            }
+
+        }
+    }
+    
+}
